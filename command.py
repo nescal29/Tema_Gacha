@@ -9,7 +9,7 @@ def anlys(discord_msg: str):
         # 単語の正規化
         return_str: str = normalization(str(word.surface))
 
-        if return_str == '>temagacha':
+        if return_str == 'temagacha':
             return 0
 
 
