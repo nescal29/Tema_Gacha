@@ -14,7 +14,6 @@ async def on_message(message):
     anlys: int = command.anlys(message.content)
 
     if anlys == 1:
-        await message.delete()
         await message.channel.send(message.author.mention + '　テーマ　：　' + tema_gacha.gacha())
 
 client.run(os.environ.get('discord_token'))
