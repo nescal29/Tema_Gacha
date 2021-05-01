@@ -21,11 +21,11 @@ def gacha() -> str:
     # print(tema_rnd)
 
     # ファイルからテーマを取得
-    with open('./tema.txt', encoding='utf-8') as f:
+    with open('./tema_list.txt', encoding='utf-8') as f:
         for i in range(tema_rnd):
             tema: str = f.readline()
 
-    print(tema.rstrip('\n'))
+    # print(tema.rstrip('\n'))
     return tema.rstrip('\n')
 
 
