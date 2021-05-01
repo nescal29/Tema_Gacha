@@ -13,6 +13,6 @@ async def on_message(message):
     anlys: int = 0
 
     if anlys == 0:
-        await message.channel.send(message.author.mention + '　テーマ　：　' + tema_gacha.gacha())
+        await message.channel.send(message.author.mention + '　テーマ　：　')
 
 client.run(os.environ.get('discord_token'))
