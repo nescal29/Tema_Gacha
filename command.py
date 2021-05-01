@@ -16,7 +16,7 @@ def anlys(discord_msg: str):
 # 単語の正規化をする関数
 def normalization(word: str):
     word = word.lower()
-    return token
+    return word
 
 
 if __name__ == '__main__':
